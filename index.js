@@ -2,7 +2,7 @@ const supportiveFortunes = ["Even the smallest decision has a big impact.", "Tom
 const badFortunes = ["You will face a difficult challenge when you least expect to.", "Karma is real, be weary of your actions", "It's time to step up to the challenge and work hard."];
 const goodFortunes = ["The win you've been waiting for is almost here.", "All your hard work will come to fuition.", "You are not alone."];
 
-const getRandomFortune = [] => {
+const getRandomFortune = () => {
     //create an array of all arrays to select a random type
     const allArrays = [supportiveFortunes, badFortunes, goodFortunes];
 
